@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (markov_localization_algorithm "markov_localization_algorithm.cpp")
+add_executable (markov_localization_algorithm "markov_localization_algorithm.cpp" "bayes_filter.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET markov_localization_algorithm PROPERTY CXX_STANDARD 20)

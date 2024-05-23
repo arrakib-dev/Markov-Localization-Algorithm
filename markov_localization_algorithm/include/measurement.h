@@ -13,7 +13,7 @@ public:
 
 	struct Observation
 	{
-		std::vector<float> distance;
+		std::vector<float> distances;
 	};
 	
 	Control control_;

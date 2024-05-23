@@ -26,8 +26,6 @@ public:
 	bool CompareData(std::string filename_gt, std::vector<float> resultVector);
 
 
-
-
 };
 
 
