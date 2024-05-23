@@ -11,7 +11,7 @@ For Visual Studio: open the project directory with visual studio: ` File -> Open
 For comand line: follow the instructions in the following section.
 
 
-## Build with cmake (command line)
+## Build with Cmake (command line)
 
 - Clone the repository:
 ```
@@ -30,7 +30,7 @@ mkdir out
 
 - Generate project buildsystem in 'out' directory:
 ```
-camke -B out
+cmake -B out
 ```
 
 - Build the project:
