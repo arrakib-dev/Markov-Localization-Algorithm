@@ -24,9 +24,9 @@ private:
 
 	void Init(const Map& map, Calc& calc);
 
-	float Predict(int i, const Measurement &mesurement, const Map& map, Calc& calc);
+	float Predict(int i, const Measurement &measurement, const Map& map, Calc& calc);
 
-	float Update(int i, const Measurement& mesurement, const Map& map, Calc& calc);
+	float Update(int i, const Measurement& measurement, const Map& map, Calc& calc);
 
 	bool is_ninitialized_; 
 	std::vector<float> belief_x_init_;
